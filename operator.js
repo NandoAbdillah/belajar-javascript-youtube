@@ -17,6 +17,7 @@ console.log(d % c); // mod (sisa)
 let kota = "Sido" + "arjo";
 console.log(kota);
 
+
 console.log("1" + 5); //output 15
 console.log("1" + 5 + 6); //output 156
 console.log(1 + 5 + "6"); //output 66

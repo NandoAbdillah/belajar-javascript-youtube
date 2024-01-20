@@ -39,7 +39,7 @@ let uji = (nilai<7) ? () => console.log(`gagal`) : ()=> console.log(`Lulus`);
 uji();
 
 let skor = 7;//variabel predikat otomatis menjadi return/nilai kembalian dalam fungsi
-let diuji = (skor<7) ? ()=>predikat=`GAGAL`:()=>predikat=`LULUS`;
+let diuji = skor<7 ? ()=>predikat=`GAGAL`:()=>predikat=`LULUS`;
 console.log(diuji());
 
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="arraymethod.js"></script> -->
+    <!-- <script src="ternary.js" defer></script> -->
+    <!-- <script src="localStorage.js"></script> -->
+    <script src="sessionStorage.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="hasil">Hasil</h1>
+      <input type="number" name="" id="bil1" placeholder="angka1" />
+      <input type="number" name="" id="bil2" placeholder="angka2" />
+      <button type="button" id="tambah">Tambah</button>
+      <button type="button" id="kurang">Kurang</button>
+    </div>
+
+    <script>
+      tambah.onclick = () => {
+        document.querySelector("#hasil").innerHTML =
+          parseInt(document.querySelector("#bil1").value) +
+          parseInt(document.querySelector("#bil2").value);
+      };
+    </script>
+  </body>
+</html>
